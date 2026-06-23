@@ -67,7 +67,7 @@ This command-line Python application helps a business team collect customer info
 A full sample run is included in `outputs/sample_output.txt`.
 
 ## Screenshots
-Place the screenshots of the program output inside `outputs/screenshots/` before submitting.
+Screenshots of the program output are included inside `outputs/screenshots/`.
 
 ## Assumptions Made
 - Loan EMI projection is estimated as requested loan amount divided by 24 months.

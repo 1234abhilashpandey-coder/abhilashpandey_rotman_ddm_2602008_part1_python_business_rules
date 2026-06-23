@@ -1,0 +1,245 @@
+================================================================
+SAMPLE PROGRAM RUN
+This is a real, verified run of main.py (not hand-written).
+User-entered values are shown after each prompt for readability.
+================================================================
+
+Welcome to the Customer Evaluation and Decision Support System
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 1
+
+============================================================
+CUSTOMER PROFILE AND FINANCIAL SUMMARY
+============================================================
+Enter customer name: Rohan Mehta
+Enter age: -5
+  -> Invalid input. Value must be between 1 and 120. Please try again.
+Enter age: 30
+Enter city: Lucknow
+Enter monthly income: 80000
+Enter monthly expenses: 30000
+Enter existing EMI amount: 10000
+Enter credit score (300-900): 950
+  -> Invalid input. Value must be between 300 and 900. Please try again.
+Enter credit score (300-900): 780
+Enter customer segment ('Standard', 'Premium', 'Enterprise'): Premium
+
+Customer Name        : Rohan Mehta
+Age                  : 30
+City                 : Lucknow
+Segment              : Premium
+Monthly Income       : Rs. 80,000.00
+Monthly Expenses     : Rs. 30,000.00
+Existing EMI         : Rs. 10,000.00
+Credit Score         : 780
+------------------------------------------------------------
+Monthly Savings      : Rs. 40,000.00
+Savings Percentage   : 50.00%
+EMI-to-Income Ratio  : 12.50%
+Risk Category        : Low Risk
+Customer Value       : Medium Value
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 2
+
+============================================================
+PRODUCT BILLING CALCULATOR
+============================================================
+Enter product name: Wireless Mouse
+Enter product category: Electronics
+Enter quantity: 0
+  -> Invalid input. Value must be greater than 0. Please try again.
+Enter quantity: 3
+Enter unit price: 2000
+Enter discount percentage (0-100): 120
+  -> Invalid input. Value must be between 0 and 100. Please try again.
+Enter discount percentage (0-100): 10
+Enter GST percentage: 18
+Enter delivery charge: 120
+
+Product Name             : Wireless Mouse
+Category                 : Electronics
+Quantity                 : 3
+Unit Price               : Rs. 2,000.00
+------------------------------------------------------------
+Gross Amount             : Rs. 6,000.00
+Discount Amount (10.0%)    : Rs. 600.00
+Amount After Discount    : Rs. 5,400.00
+GST Amount (18.0%)         : Rs. 972.00
+Delivery Charge          : Waived (amount after discount exceeds Rs. 5,000.00)
+------------------------------------------------------------
+FINAL PAYABLE AMOUNT     : Rs. 6,372.00
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 3
+
+============================================================
+LOAN ELIGIBILITY DECISION
+============================================================
+Enter age: 20
+Enter monthly income: 100000
+Enter existing EMI amount: 5000
+Enter credit score (300-900): 780
+Enter savings percentage: 20
+Enter requested loan amount: 200000
+
+Age                      : 20
+Monthly Income           : Rs. 100,000.00
+Existing EMI             : Rs. 5,000.00
+Credit Score             : 780
+Savings Percentage       : 20.00%
+Requested Loan Amount    : Rs. 200,000.00
+Projected EMI            : Rs. 8,333.33
+Projected EMI Ratio      : 13.33%
+------------------------------------------------------------
+Decision: Rejected
+Reason: Age is below the minimum eligible age of 21.
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 3
+
+============================================================
+LOAN ELIGIBILITY DECISION
+============================================================
+Enter age: 28
+Enter monthly income: 100000
+Enter existing EMI amount: 5000
+Enter credit score (300-900): 780
+Enter savings percentage: 25
+Enter requested loan amount: 200000
+
+Age                      : 28
+Monthly Income           : Rs. 100,000.00
+Existing EMI             : Rs. 5,000.00
+Credit Score             : 780
+Savings Percentage       : 25.00%
+Requested Loan Amount    : Rs. 200,000.00
+Projected EMI            : Rs. 8,333.33
+Projected EMI Ratio      : 13.33%
+------------------------------------------------------------
+Decision: Approved
+Reason: Credit score, savings percentage, and projected EMI ratio all meet the approval criteria.
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 3
+
+============================================================
+LOAN ELIGIBILITY DECISION
+============================================================
+Enter age: 26
+Enter monthly income: 50000
+Enter existing EMI amount: 5000
+Enter credit score (300-900): 680
+Enter savings percentage: 12
+Enter requested loan amount: 150000
+
+Age                      : 26
+Monthly Income           : Rs. 50,000.00
+Existing EMI             : Rs. 5,000.00
+Credit Score             : 680
+Savings Percentage       : 12.00%
+Requested Loan Amount    : Rs. 150,000.00
+Projected EMI            : Rs. 6,250.00
+Projected EMI Ratio      : 22.50%
+------------------------------------------------------------
+Decision: Manual Review Required
+Reason: Credit score is acceptable, but the savings percentage or projected EMI ratio does not fully meet the approval criteria.
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 4
+
+============================================================
+CAMPAIGN ELIGIBILITY
+============================================================
+Enter customer segment ('Standard', 'Premium', 'Enterprise'): Premium
+Enter city: Lucknow
+Enter savings percentage: 30
+Enter customer value category ('Low', 'Medium', 'High'): High
+
+Segment              : Premium
+City                 : Lucknow
+Savings Percentage   : 30.00%
+Customer Value       : High
+------------------------------------------------------------
+Campaign Assigned: Premium Upsell Campaign
+Reason: Customer is in the Premium segment and classified as High Value.
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 4
+
+============================================================
+CAMPAIGN ELIGIBILITY
+============================================================
+Enter customer segment ('Standard', 'Premium', 'Enterprise'): Standard
+Enter city: Lucknow
+Enter savings percentage: 18
+Enter customer value category ('Low', 'Medium', 'High'): Medium
+
+Segment              : Standard
+City                 : Lucknow
+Savings Percentage   : 18.00%
+Customer Value       : Medium
+------------------------------------------------------------
+Campaign Assigned: Cashback Campaign
+Reason: Customer is based in a target city (Lucknow) and savings percentage (18.00%) is at least 15%.
+
+============================================================
+MAIN MENU
+============================================================
+1. Customer Profile and Financial Summary
+2. Product Billing Calculator
+3. Loan Eligibility Decision
+4. Campaign Eligibility Checker
+5. Exit
+Enter your choice (1-5): 5
+Thank you for using the system. Goodbye!

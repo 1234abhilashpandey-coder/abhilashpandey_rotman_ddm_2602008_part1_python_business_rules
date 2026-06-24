@@ -1,12 +1,3 @@
-"""
-main.py
-Menu-driven controller for the Customer Evaluation, Product Billing,
-Loan Decision, and Campaign Eligibility System.
-
-This file only controls the menu loop. All business logic lives in
-the src/ package.
-"""
-
 from src import customer
 from src import billing
 from src import eligibility

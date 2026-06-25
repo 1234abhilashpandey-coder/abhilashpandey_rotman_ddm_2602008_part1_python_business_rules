@@ -1,4 +1,4 @@
-# Capstone Project Part 3 - Python Business Rules
+# Capstone Project Part 1 - Python Business Rules
 
 ## Assignment Title
 Customer Evaluation, Product Billing, Loan Decision, and Campaign Eligibility System
